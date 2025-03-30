@@ -1,8 +1,7 @@
 import random
 def game(level):
     number = random.randint(1,level)
-    level=100
-    guess=int(input("Enter the number : "))
+    print(f"Guess thee number between 1 and {level}")
     for i in range(0,8):
         guess=int(input("Enter the number : "))
         if guess==number:
@@ -15,6 +14,9 @@ def game(level):
             continue
         elif guess<number:
             print("Too Low")
+            continue
+        elif guess>level:
+            print("Out of range")
             continue
     print("Game Over! You Lost")
 game(100)
