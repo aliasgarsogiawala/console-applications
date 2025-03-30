@@ -10,6 +10,6 @@ if weather_data.json()['cod'] == '404':
 else:
     weather = weather_data.json()['weather'][0]['main']
     temp = round(weather_data.json()['main']['temp'])
-
+    #print(weather_data.json()) (Contains all the data being fetched by the api , extract the data you want)
     print(f"The weather in {city_entered} is: {weather}")
     print(f"The temperature in {city_entered} is: {temp}ºC")
