@@ -25,7 +25,8 @@ console-applications/
 ├── .gitignore
 ├── README.md
 └── CONTRIBUTING.md
-Each folder contains programs written in that specific language. If you're adding a new language, feel free to create a folder for it.
+Each folder contains programs written in that specific language. If you're adding a new language, feel free to create a folder for it. 
+```
 
 ## 🧠 What's Inside?
 
